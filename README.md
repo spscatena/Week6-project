@@ -19,21 +19,32 @@ Chef Page:
 ![](https://raw.githubusercontent.com/spscatena/translate-project/master/wireframe-translate-chef-page.png)
 
 ## MVP and Post MVP
-- This app will use three post axios calls to retireve a translation of text entered in by the user. 
+- Call three post axios calls to retireve a translation of text entered in by the user. 
+- Retrieve translation and present new text to the user. 
 - Will include for react router links and 6 components
 - Custom CSS
+
+## Post MVP
+- Incorporating animation and stylization
+
+
 
 ## Component Hierarchy
 
 ```
 <Header>
+  <Link to Pages>
 <Main>
+  <Input Data>
+  <Retun Data>
+</Main>
 <Footer>
 
 ```
+## Technologies 
+### React, AJAX, HTML, CSS 
+
 
 ## Code Snippit
 Code I'm proud of: TBD
 
-## Issues and Resolutions
-TBD
