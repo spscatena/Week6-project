@@ -3,7 +3,7 @@
 ![](https://media.giphy.com/media/EOpZ7XsVfTN2E/giphy.gif)
 
 ## Production Description
-A fun site where the user can enter text into an input field to be translation into Minion, Chef or Pirate language.
+A fun site where the user can enter text into an input field to be translated into Minion, Sweedish Chef or Pirate language.
 
 ## Wireframes: 
 Home Page: 
@@ -42,7 +42,7 @@ Chef Page:
 
 ```
 ## Technologies 
-### React, AJAX, HTML, CSS 
+React, AJAX, HTML, CSS 
 
 
 ## Code Snippit
