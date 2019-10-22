@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  background-color: bisque;
+  height: 55px;
+  align-items: center;
+}
+
+nav {
+/* border: 2px solid blue; */
+margin: 75%;
+}
+
+nav a {
+  padding: 20px;
+}
+
+#header-home {
+  margin-left: 20px;
+}
+
+
+/* Header Info above */
+
+/* Home images below */
+
+#home-div{
+  background-color: darkgray;
+  display: flex;
+}
+
+
+#pirate-home { 
+  width: 300px;
+
+}
+
+
+#chef-home {
+  width: 300px;
+
+
+}
+
+#minionForm {
+display: flex;
+background-color: orange;
+height: 500px;
+justify-content: center;
+}
+
+h2 {
+  justify-content: center;
+}
+
+#minionTitle {
+  justify-content: center;
+}

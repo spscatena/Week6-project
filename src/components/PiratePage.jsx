@@ -1,0 +1,17 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+
+export default function PiratePage(props) {
+  return (
+    <div id="pirateForm">
+      <form onSubmit={props.handleSubmit}>
+        <h2>Pirate Page Translation</h2>
+        <textarea onChange={props.handleChange} name="userInput" type="text" placeholder="To be Translated" ></textarea>
+        <input type="submit" value="Get Translation!" />
+      </form>
+      <h3>{props.pirateMessage}</h3>
+    </div>
+  )
+}
+
