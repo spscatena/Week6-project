@@ -1,6 +1,6 @@
 header {
   display: flex;
-  background-color: bisque;
+  background-color: grey;
   height: 55px;
   align-items: center;
 }
@@ -12,34 +12,98 @@ margin: 75%;
 
 nav a {
   padding: 20px;
+  color: white;
+  text-decoration: none;
+
 }
 
 #header-home {
   margin-left: 20px;
 }
 
+#header-home a {
+  color: white;
+  text-decoration: none;
+}
+
 
 /* Header Info above */
 
-/* Home images below */
+/* Home page below */
+
+#container {
+  /* background-color: paleturquoise; */
+  /* border: 4px solid orange; */
+}
+
+#welcome {
+/* border: 2px solid plum; */
+text-align: center;
+font-family: 'Luckiest Guy', cursive;
+letter-spacing: 2px;
+font-size: 40px;
+/* margin-left: 30%;
+margin-top: 30px; */
+}
+
+#instructions {
+  /* border: 3px solid green; */
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+  /* padding: 30px; */
+  padding-left: 100px;
+  padding-right: 100px;
+  
+}
 
 #home-div{
-  background-color: darkgray;
+  /* background-color: linen; */
   display: flex;
+  /* border: 3px solid black; */
+  /* margin-top: 20px;  */
+justify-content: center;
 }
 
 
 #pirate-home { 
-  width: 300px;
-
+/* border: 2px solid red; */
+margin-left: -50px;
+transition: all .2s ease-in-out;
 }
 
+#pirate-home:hover {
+animation-fill-mode: forwards;
+transform: scale(1.3);
+}
 
 #chef-home {
-  width: 300px;
-
-
+/* border: 2px solid green; */
+/* margin-left: 100px; */
+/* margin-right: 120px;  */
+margin-left: 9%;
+margin-right: 10%;
+transition: all .2s ease-in-out;
 }
+
+#chef-home:hover {
+  animation-fill-mode: forwards;
+  transform: scale(1.3);
+}
+
+#minion-home {
+  /* border: 2px solid hotpink; */
+  margin-right: 20px;
+  transition: all .2s ease-in-out;
+}
+
+#minion-home:hover {
+  animation-fill-mode: forwards;
+  transform: scale(1.3);
+}
+
+
+/* Below is Minion Page */
 
 #minionForm {
 display: flex;
@@ -48,10 +112,12 @@ height: 500px;
 justify-content: center;
 }
 
-h2 {
-  justify-content: center;
-}
+/* h2 {
+border: 2px solid orange;
+padding-left: 50px;
+} */
 
 #minionTitle {
   justify-content: center;
+
 }
