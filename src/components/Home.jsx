@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import minionHome from '../minionHome.png';
 import pirate from '../pirate-home.png';
 import chefHome from '../chefHome.png';
-import chefHome2 from '../chefHome2.png'
 
 
 export default function Home() {
   return (
+    // <body>
     <div id="container">
       <div id="welcome"><h1>Welcome to a Fun Translation!</h1></div>
       <div id="home-div">
@@ -31,6 +31,7 @@ export default function Home() {
       </div>
       <div id="instructions">Click on one of the cards to retreive a fun translation of any text in Pirate speak, the accent of the Sweedish Chef or Minion language.</div>
     </div>
+    // </body>
   )
 }
 

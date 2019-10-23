@@ -7,7 +7,7 @@ import { minionTranslation } from './api-helper';
 import Header from './components/Header';
 import Home from './components/Home';
 import MinionPage from './components/MinionPage';
-import PiragePage from './components/PiratePage';
+import PiratePage from './components/PiratePage';
 import ChefPage from './components/ChefPage';
 
 
@@ -69,6 +69,12 @@ class App extends React.Component {
     })
   }
 
+  clearMessages = () => {
+    this.state.chefMessage = ""
+    this.state.minionMessage = ""
+    this.state.pirateMessage = ""
+    return true
+  }
 
 
   render() {
@@ -77,10 +83,10 @@ class App extends React.Component {
         <Header />
 
         <main>
-          <Route exact path="/" render={() => (<Home />)} />
-          <Route path="/pirate" render={() => (<PiragePage handleSubmit={this.handleSubmitPirate} handleChange={this.handleChange} pirateMessage={this.state.pirateMessage} />)} />
-          <Route path="/chef" render={() => (<ChefPage handleSubmit={this.handleSubmitChef} handleChange={this.handleChange} chefMessage={this.state.chefMessage} />)} />
-          <Route path="/minion" render={() => (<MinionPage handleSubmit={this.handleSubmitMinion} handleChange={this.handleChange} minionMessage={this.state.minionMessage} />)} />
+          <Route exact path="/" render={() => this.clearMessages() && (<Home />)} />
+          <Route path="/pirate" render={() => (<PiratePage handleSubmit={this.handleSubmitPirate} handleChange={this.handleChange} pirateMessage={this.state.pirateMessage} clearMessages={this.clearMessages} />)} />
+          <Route path="/chef" render={() => (<ChefPage handleSubmit={this.handleSubmitChef} handleChange={this.handleChange} chefMessage={this.state.chefMessage} clearMessages={this.clearMessages} />)} />
+          <Route path="/minion" render={() => (<MinionPage handleSubmit={this.handleSubmitMinion} handleChange={this.handleChange} minionMessage={this.state.minionMessage} clearMessages={this.clearMessages} />)} />
 
         </main>
       </div>
