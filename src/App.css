@@ -202,9 +202,118 @@ h3 {
 
 input {
   background-color: black;
-color: white;
+  color: white;
   border-radius: 15px;
   height: 30px;
   margin-top: 10px;
   font-weight: bold;
+}
+
+/* below is media quiery  */
+
+@media only screen and (max-width: 550px) {
+
+  body, .App {
+    width: 100%;
+    /* overflow-x: hidden; */
+    /* display: flex; */
+  }
+  
+  header {
+    width: 0px;
+  
+  }
+    
+    nav a {
+      color: black
+    }
+    
+    #header-home a {
+      color: black;
+    }
+
+    .img-container {
+      display: flex;
+ 
+    }
+    
+   
+   
+    #pirateTitle {
+      font-size: small;
+      margin-left: 40px;
+    }
+
+    #minionTitle {
+      font-size: small;
+      margin-left: 40px;
+
+    }
+
+    #chefTitle {
+      font-size: small;
+      margin-left: 40px;
+
+    }
+
+    textarea {
+      width: 50%;
+      margin-left: 40px;
+      /* border: 2px solid blue; */
+    }
+
+
+    #welcome {
+      font-size: small;
+    }
+
+
+    img {
+      width: 60%;
+    }
+
+    #instructions {
+      font-size: small;
+      padding: 0;
+      margin-top: 10px;
+
+    }
+
+
+    #home-div{
+    display: inline;
+    }
+
+#pirate-home {
+  width: 80%;
+  margin-left: 100px;
+}
+   
+
+#chef-home {
+  width: 80%;
+  margin-left: 100px;
+}
+
+#minion-home {
+  width: 80%;
+  margin-left: 100px;
+}
+
+input[type=submit] {
+  margin-left: 40px;
+}
+
+#chefHome2 {
+  border: 2px solid orange;
+  margin-top: 200px;
+  /* margin-left: 200px; */
+  /* width: 200px; */
+}
+
+#translation {
+width: fit-content;
+word-wrap: normal;
+}
+
 }

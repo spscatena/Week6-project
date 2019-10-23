@@ -31,9 +31,9 @@ class ChefPage extends React.Component {
           {this.props.chefMessage !== "" &&
             // <Animated animationIn="tada" animationOut="tada" isVisible={true} animationInDuration="900"> */}
             <div id="chefHome2">
-              <img src={chefHome2} />
-            </div>
-            // </Animated> */}
+                <img src={chefHome2} />
+              </div>
+            // </Animated>
           }
         </div>
       </div>
