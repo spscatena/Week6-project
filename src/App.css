@@ -159,15 +159,19 @@ padding-left: 50px;
 }
 
 #chefPage {
-  /* border: 2px solid orange; */
-
+position: relative;
+top: 0px;
+left: 0px;
 }
 
 #chefHome2 {
-  border: 2px solid blue;
-  width: 300px; 
-  margin-left: 100px;
-
+  /* border: 2px solid blue; */
+  position: absolute;
+  top: 150px;
+  right: 200px;
+  animation-name: grow;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 
 
@@ -184,7 +188,7 @@ textarea {
 
 h3 {
   font-size: 28px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 435px;
   /* transition: all .2s ease-in-out;
   animation-fill-mode: forwards;

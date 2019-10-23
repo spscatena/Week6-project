@@ -87,7 +87,6 @@ class App extends React.Component {
           <Route path="/pirate" render={() => (<PiratePage handleSubmit={this.handleSubmitPirate} handleChange={this.handleChange} pirateMessage={this.state.pirateMessage} clearMessages={this.clearMessages} />)} />
           <Route path="/chef" render={() => (<ChefPage handleSubmit={this.handleSubmitChef} handleChange={this.handleChange} chefMessage={this.state.chefMessage} clearMessages={this.clearMessages} />)} />
           <Route path="/minion" render={() => (<MinionPage handleSubmit={this.handleSubmitMinion} handleChange={this.handleChange} minionMessage={this.state.minionMessage} clearMessages={this.clearMessages} />)} />
-
         </main>
       </div>
     );

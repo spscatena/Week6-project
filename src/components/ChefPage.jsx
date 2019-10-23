@@ -28,14 +28,14 @@ class ChefPage extends React.Component {
               <h3>{this.props.chefMessage}</h3>
             </div>
           </form>
-        </div>
-        {this.props.chefMessage !== "" &&
-          <Animated animationIn="zoomInUp" animationOut="zoomInUp" isVisible={true} animationInDuration="900">
+          {this.props.chefMessage !== "" &&
+            // <Animated animationIn="tada" animationOut="tada" isVisible={true} animationInDuration="900"> */}
             <div id="chefHome2">
               <img src={chefHome2} />
             </div>
-          </Animated>
-        }
+            // </Animated> */}
+          }
+        </div>
       </div>
     )
   }
