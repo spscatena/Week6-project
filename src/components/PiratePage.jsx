@@ -30,7 +30,7 @@ class PiratePage extends React.Component {
           </form>
         </div>
         {this.props.pirateMessage !== "" &&
-          <Animated animationIn="fadeInRight" animationOut="fadeInRight" isVisible={true} animationInDuration="2000">
+          <Animated animationIn="fadeInRight" animationOut="fadeInRight" isVisible={true} animationInDuration="3000">
             <div id="pirate-shipt">
               <img src={pirateship} />
             </div>

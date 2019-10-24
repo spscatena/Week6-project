@@ -46,5 +46,17 @@ React, AJAX, HTML, CSS
 
 
 ## Code Snippit
-Code I'm proud of: TBD
+Animation library to add interesting animation transition to an image. This bit of code is activating the animation once the translation appears. 
 
+```
+{this.props.pirateMessage !== "" &&
+          <Animated animationIn="fadeInRight" animationOut="fadeInRight" isVisible={true} animationInDuration="3000">
+            <div id="pirate-shipt">
+              <img src={pirateship} />
+            </div>
+          </Animated>
+        }
+
+```
+## Areas of trouble
+I ran into issues with animating the Sweedish Chef. I used positioning to place him where I wanted him to be on the page, however when I used the animation that was imported, I could not figure out how to determin his starting position. 
