@@ -5,10 +5,10 @@ header {
   align-items: center;
   width: 100%;
 }
-
-nav {
-/* border: 2px solid blue; */
-margin: 75%;
+.home {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px;
 }
 
 nav a {
@@ -18,11 +18,8 @@ nav a {
 
 }
 
-#header-home {
-  margin-left: 20px;
-}
 
-#header-home a {
+.home a {
   color: white;
   text-decoration: none;
 }
@@ -211,26 +208,27 @@ input {
 
 /* below is media quiery  */
 
-@media only screen and (max-width: 550px) {
-
-  body, .App {
-    width: 100%;
-    /* overflow-x: hidden; */
-    /* display: flex; */
-  }
+@media only screen and (max-width: 770px) {
   
-  header {
-    width: 0px;
-  
-  }
+ 
     
     nav a {
-      color: black
+      color: white;
     }
     
     #header-home a {
-      color: black;
+      /* color: white;
+      text-decoration: none; */
+      
     }
+
+    #header-home {
+      width: 50%;
+      color: white;
+
+    }
+
+
 
     .img-container {
       display: flex;
