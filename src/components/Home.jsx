@@ -31,7 +31,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div id="instructions">Click on one of the cards to retreive a fun translation of any text in Pirate speak, the accent of the Sweedish Chef or Minion language.</div>
+      <div id="instructions">Click on one of the cards to retreive a fun translation of any text in Pirate speak, the accent of the Swedish Chef or Minion language.</div>
     </div>
     // </body>
   )

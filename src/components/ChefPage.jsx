@@ -16,7 +16,7 @@ class ChefPage extends React.Component {
         <div id="chefForm">
           <form onSubmit={this.props.handleSubmit}>
             <div id="chefTitle">
-              <h2>Sweedish Chef Translation</h2>
+              <h2>Swedish Chef Translation</h2>
             </div>
             <div id="userInput">
               <textarea onChange={this.props.handleChange} name="userInput" type="text" placeholder="To be Translated" ></textarea>
@@ -31,8 +31,8 @@ class ChefPage extends React.Component {
           {this.props.chefMessage !== "" &&
             // <Animated animationIn="tada" animationOut="tada" isVisible={true} animationInDuration="900"> */}
             <div id="chefHome2">
-                <img src={chefHome2} />
-              </div>
+              <img src={chefHome2} />
+            </div>
             // </Animated>
           }
         </div>
