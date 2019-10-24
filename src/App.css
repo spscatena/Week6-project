@@ -272,9 +272,13 @@ input {
 
     #instructions {
       font-size: small;
-      padding: 0;
+      padding: 10px;
       margin-top: 10px;
+    }
 
+    h3 {
+      font-size: medium;
+      width: 100vw;
     }
 
 
@@ -303,7 +307,7 @@ input[type=submit] {
 }
 
 #chefHome2 {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   margin-top: 200px;
   /* margin-left: 200px; */
   /* width: 200px; */
